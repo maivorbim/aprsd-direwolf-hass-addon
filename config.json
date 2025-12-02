@@ -1,0 +1,28 @@
+{
+  "name": "APRSd + Direwolf",
+  "version": "1.0.0",
+  "slug": "aprsd_direwolf",
+  "description": "APRS-IS client (APRSd) + Direwolf TNC modem",
+  "startup": "services",
+  "boot": "auto",
+  "ingress": true,
+  "ingress_port": 8001,
+  "panel_icon": "mdi:radio",
+  "map": ["config:rw", "data:rw"],
+  "ports": {},
+  "ports_description": {},
+  "host_network": false,
+  "devices": ["/dev/ttyUSB0","/dev/ttyACM0","/dev/snd"],
+  "options": {
+    "mqtt_host": "core-mosquitto",
+    "mqtt_port": 1883,
+    "mqtt_user": "",
+    "mqtt_pass": ""
+  },
+  "schema": {
+    "mqtt_host": "str",
+    "mqtt_port": "int",
+    "mqtt_user": "str?",
+    "mqtt_pass": "str?"
+  }
+}
