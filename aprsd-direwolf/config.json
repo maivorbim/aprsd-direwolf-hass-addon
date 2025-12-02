@@ -1,7 +1,7 @@
 {
   "name": "APRSd + Direwolf",
   "version": "1.0.0",
-  "slug": "aprsd_direwolf",
+  "slug": "aprsd-direwolf",
   "description": "APRS-IS client (APRSd) + Direwolf TNC modem",
   "startup": "services",
   "boot": "auto",
