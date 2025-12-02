@@ -1,3 +1,10 @@
-name: APRSd Direwolf HA Add-on
-url: https://github.com/maivorbim/aprsd-direwolf-hass-addon
-maintainer: maivorbim
+name: "APRSd + Direwolf Add-on Repository"
+maintainer: "maivorbim"
+url: "https://github.com/maivorbim/aprsd-direwolf-hass-addon"
+addons:
+  - name: "APRSd + Direwolf"
+    slug: "aprsd-direwolf"
+    description: "APRS-IS client (APRSd) + Direwolf TNC modem for Home Assistant"
+    version: "1.0.0"
+    repository: "https://github.com/maivorbim/aprsd-direwolf-hass-addon"
+    url: "https://github.com/maivorbim/aprsd-direwolf-hass-addon"
