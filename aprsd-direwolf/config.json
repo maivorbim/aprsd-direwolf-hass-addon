@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "slug": "aprsd-direwolf",
   "description": "APRS-IS client (APRSd) + Direwolf TNC modem",
+  "arch": ["amd64"]
   "startup": "services",
   "boot": "auto",
   "ingress": true,
